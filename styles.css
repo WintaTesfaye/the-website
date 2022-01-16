@@ -1,3 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
 body {
-  background: orange;
+  color: pink;
+  background: #3333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  color: rgb(179, 76, 96);
+  list-style-type: none;
+}
+h1 {
+  font-weight: 300;
+}
+.navbar {
+  background-color: #047aed;
+  color: #fff;
+  height: 70px;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+.container {
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
